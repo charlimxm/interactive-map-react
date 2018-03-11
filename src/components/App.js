@@ -10,7 +10,7 @@ class App extends Component {
     this.state = {
       lng: 103.8484,
       lat: 1.2966,
-      zoom: 17
+      zoom: 18
     }
   }
 
@@ -23,6 +23,7 @@ class App extends Component {
       container: this.mapContainer,
       style: 'mapbox://styles/mapbox/streets-v9',
       center: [lng, lat],
+      pitch: 30,
       zoom
     })
 
