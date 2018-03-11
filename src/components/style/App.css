@@ -1,0 +1,57 @@
+h2 {
+  text-align: center;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+
+#map {
+  position: absolute;
+  top: 180px;
+  left: 0;
+  height: 55%;
+  width: 100%;
+}
+
+#currentLngLat {
+  position: absolute;
+  top: 190px;
+  padding: 6px;
+  border-radius: 5px;
+  background-color: grey;
+  opacity: 0.8;
+  color: white;
+}
+
+#instruction {
+  position: absolute;
+  top: 75%;
+  left: 0px;
+}
+
+#container1 {
+  position: absolute;
+  top: 80%;
+  left: 50px;
+}
